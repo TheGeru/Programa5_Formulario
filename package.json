@@ -6,7 +6,6 @@
   "scripts": {
     "start": "node index",
     "test": "nodemon index"
-    "servidor": "nodemon index"
   },
   "keywords": [],
   "author": "",
