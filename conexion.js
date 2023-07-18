@@ -11,7 +11,7 @@ var host = process.env.HOST_MYSQL ;
 var port = process.env.PORT_MYSQL ;
 
 
-var conexion = new Sequelize(db, "b1v4p3ic6v11s5mhkoxz", "pscale_pw_l2YTnj9q3O8j4tMS0JaMGHPmMtS77gY0lI6gi931vhR", {
+var conexion = new Sequelize(db, usuario, password, {
   host: host,
   port: port,
   dialect: "mysql",
