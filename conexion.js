@@ -12,8 +12,8 @@ var port = process.env.PORT_MYSQL ;
 
 
 var conexion = new Sequelize("ejemplo1", "b1v4p3ic6v11s5mhkoxz", "pscale_pw_l2YTnj9q3O8j4tMS0JaMGHPmMtS77gY0lI6gi931vhR", {
-  host: aws.connect.psdb.cloud,
-  port: 3306,
+  host: host,
+  port: port,
   dialect: "mysql",
   dialectOptions: {
     ssl: {
