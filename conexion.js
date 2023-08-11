@@ -25,10 +25,10 @@ var conexion = new Sequelize(db, usuario, password, {
 
 conexion.sync({ force: false }) 
   .then(() => {
-    console.log("Exito conectado a la base de datos :)");
+    console.log("Exito conectado a la base de datos");
   })
   .catch((err) => {
-    console.log("Error al conectar a la base de datos :(  " + err);
+    console.log("Error al conectar a la base de datos" + err);
     });
     conexion.sync({ force: false }) 
     .then(()=>{
