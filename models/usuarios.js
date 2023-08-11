@@ -21,6 +21,7 @@ module.exports = (conexion)=>{
             default:true
         }
     });
+
+    
     return UsuarioSchema;
 };
-

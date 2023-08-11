@@ -21,10 +21,9 @@ var conexion = new Sequelize(db, usuario, password, {
       rejectUnauthorized: true,
     },
   },
-}); // creando un bojeto de sequalize
-// var mysql2 = require("mysql2");
+}); 
 
-conexion.sync({ force: false }) // esta es una promesa
+conexion.sync({ force: false }) 
   .then(() => {
     console.log("Exito conectado a la base de datos :)");
   })
